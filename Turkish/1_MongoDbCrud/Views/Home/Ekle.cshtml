@@ -1,0 +1,23 @@
+﻿@model BlogTodoApp.Models.Todo
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ekle</title>
+</head>
+<body>
+    <h1>Yeni Todo Ekleme</h1>
+    <hr />
+    <form asp-controller="Home" asp-action="Ekle" method="post" enctype="multipart/form-data">
+        <input type="text" asp-for="Title" placeholder="Todo Başlığı..."> <br />
+        <input type="text" asp-for="Date" value="@DateTime.Now.ToShortDateString()"> <br />
+        <input type="checkbox" asp-for="Completed"> <br />
+        <button type="submit">Yeni Todo Ekle</button>
+    </form>
+</body>
+</html>

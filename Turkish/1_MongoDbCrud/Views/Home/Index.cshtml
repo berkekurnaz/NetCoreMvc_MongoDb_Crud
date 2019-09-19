@@ -1,0 +1,22 @@
+﻿@model IEnumerable<BlogTodoApp.Models.Todo>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Bütün Todolar</h1>
+    <a href="/Home/Ekle">Yeni Todo Ekle</a>
+    <hr />
+    @foreach (var item in Model)
+    {
+        <p>@item.Id - @item.Title - @item.Date <a href="/Home/Guncelle/@item.Id">Güncelle</a> <a href="/Home/Sil/@item.Id">Sil</a></p>
+    }
+</body>
+</html>

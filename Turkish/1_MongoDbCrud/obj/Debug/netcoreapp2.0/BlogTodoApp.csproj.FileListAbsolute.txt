@@ -1,0 +1,11 @@
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\bin\Debug\netcoreapp2.0\BlogTodoApp.deps.json
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\bin\Debug\netcoreapp2.0\BlogTodoApp.runtimeconfig.json
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\bin\Debug\netcoreapp2.0\BlogTodoApp.runtimeconfig.dev.json
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\bin\Debug\netcoreapp2.0\BlogTodoApp.dll
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\obj\Debug\netcoreapp2.0\BlogTodoApp.csprojAssemblyReference.cache
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\obj\Debug\netcoreapp2.0\BlogTodoApp.csproj.CoreCompileInputs.cache
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\obj\Debug\netcoreapp2.0\BlogTodoApp.AssemblyInfoInputs.cache
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\obj\Debug\netcoreapp2.0\BlogTodoApp.AssemblyInfo.cs
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\bin\Debug\netcoreapp2.0\BlogTodoApp.pdb
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\obj\Debug\netcoreapp2.0\BlogTodoApp.dll
+D:\YazilimProjeleri2019\BlogTodoApp\BlogTodoApp\obj\Debug\netcoreapp2.0\BlogTodoApp.pdb

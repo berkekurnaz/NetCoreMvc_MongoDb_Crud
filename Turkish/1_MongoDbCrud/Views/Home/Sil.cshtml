@@ -1,0 +1,24 @@
+﻿@model BlogTodoApp.Models.Todo
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sil</title>
+</head>
+<body>
+    <h1>Todo Sil</h1>
+    <p>Todo Id Numarası: @Model.Id</p>
+    <hr />
+    <form asp-controller="Home" asp-action="Sil" method="post" enctype="multipart/form-data">
+        <input type="text" asp-for="Title" value="@Model.Title" readonly> <br />
+        <input type="text" asp-for="Date" value="@Model.Date" readonly> <br />
+        <input type="checkbox" asp-for="Completed" value="@Model.Completed" readonly> <br />
+        <button type="submit">Todo Sil</button>
+    </form>
+</body>
+</html>
